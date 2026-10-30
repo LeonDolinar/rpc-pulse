@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Local data: SQLite database, WAL files and the generated encryption key
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+.secret-key
+
+# Environment (keep the example)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Test & tooling caches
+coverage/
+.vite/
+.vitest/
+.eslintcache
+
+# Editors & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
